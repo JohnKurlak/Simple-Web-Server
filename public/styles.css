@@ -1,0 +1,139 @@
+html, body, div, span,
+applet, object, h1, h2,
+h3, h4, h5, h6, p,
+blockquote, pre, a, em,
+font, img, strong, sub,
+sup, ol, ul, li, fieldset,
+form, label, legend
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body
+{
+	font-size: 100%;
+	line-height: 1.4;
+	color: #000;
+	background-color: #876;
+}
+
+ol, ul
+{
+	list-style: none;
+	position: relative;
+}
+
+.center
+{
+	text-align: center;
+	margin: 0 auto;
+}
+
+a, a:link, a:visited, a:active, a:hover
+{
+	color: #444;
+	border-bottom: 1px dotted #444;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #3c5a7f;
+	border-bottom: 1px dotted #3c5a7f;
+}
+
+h1, h2, h3, h4, h5, h6, h7
+{
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.spacer
+{
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+#wrapper
+{
+	width: 700px;
+	background-color: #fff;
+	border-bottom: 5px solid #d6d6d6;
+	border-right: 5px solid #d6d6d6;
+	border-left: 5px solid #efefef;
+	border-top: 5px solid #efefef;
+	margin: 30px auto;
+}
+
+h1
+{
+	font-family: Georgia, "Palatino Linotype", Palatino, serif;
+	font-size: 24pt;
+	color: #3c5a7f;
+	margin: 0 0 10px 0;
+	position: relative;
+	z-index: 2;
+	width: 400px;
+	margin: 0 0 0 20px;
+}
+
+h2
+{
+	font-family: "Trebuchet MS", Trebuchet, sans-serif;
+	font-size: 18pt;
+	color: #222;
+	background-color: #f0f3f7;
+	padding: 3px 15px;
+	margin: -30px 0 0 0;
+	text-align: right;
+}
+
+p, ul, label
+{
+	margin: 20px 0 0 20px;
+	font-family: "Trebuchet MS", Trebuchet, sans-serif;
+	font-size: 10pt;
+	line-height: 18pt;
+	color: #222;
+}
+
+form
+{
+	margin: 20px 0 0 0;
+}
+
+input
+{
+	font-family: "Trebuchet MS", Trebuchet, sans-serif;
+	font-size: 10pt;
+	line-height: 18pt;
+	color: #222;
+	padding: 0 3px;
+}
+
+ul
+{
+	list-style-type: disc;
+	margin: 10px 0 0 50px;
+}
+
+img
+{
+	float: right;
+	margin: 30px 0 0 0;
+}
+
+#content
+{
+	padding: 30px 50px;
+}

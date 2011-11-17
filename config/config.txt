@@ -1,0 +1,5 @@
+Port: 8080
+Path: C:\server\public
+Index: index.php index.html index.htm
+PHP: Enabled
+GZip: Enabled
