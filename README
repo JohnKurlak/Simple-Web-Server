@@ -1,0 +1,5 @@
+This project is a web server that I created for my senior project in high
+school.  It was written in Java and can run basic PHP scripts.
+
+To run it, open /config/config.txt and set the values to values that pertain to
+your setup.  Then, run /src/Server.java
